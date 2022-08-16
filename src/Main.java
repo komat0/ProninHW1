@@ -50,7 +50,6 @@ public class Main {
         int b = 0;
 
         for (int i = 0; i < foursArray.length; i++) {
-
             for (int j = 0; j < foursArray.length; j++) {
                 if ((i + j) == (foursArray.length - 1) | i == j ) {
                     foursArray[i][j] = a;
