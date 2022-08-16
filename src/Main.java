@@ -31,8 +31,8 @@ public class Main {
         System.out.println(Arrays.toString(secondArray));
 
     // Set an array [ 1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1 ], loop through it and multiply numbers less than 6 by 2.
-        int[] thirdArray = {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};
         System.out.println("Third Array:");
+        int[] thirdArray = {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};
         System.out.println(Arrays.toString(thirdArray));
         for (int i = 0; i < thirdArray.length; i++) {
             if (thirdArray[i] < 6) {
